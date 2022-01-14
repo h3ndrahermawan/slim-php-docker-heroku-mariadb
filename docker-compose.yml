@@ -23,10 +23,10 @@ services:
     mariadb:
         image: mariadb:10.5.3-bionic
         environment:
-            MYSQL_ROOT_PASSWORD: changeme
-            MYSQL_DATABASE: slim_php
-            MYSQL_USER: slim
-            MYSQL_PASSWORD: changeme
+            MYSQL_ROOT_PASSWORD: 'aaa'
+            MYSQL_USER: 'Elkpj'
+            MYSQL_PASSWORD: 'aaa'
+            MYSQL_DATABASE: 'new_elkpj'
         ports:
             - "3306:3306"
         networks:
